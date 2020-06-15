@@ -6,4 +6,5 @@ VALUES
 
 /*
 psql -U dunder_mifflin -d knex-practice -f ./seeds/seed.bookmarks.sql
+psql -U dunder_mifflin -d knex-practice-test -f ./seeds/seed.bookmarks.sql
 */

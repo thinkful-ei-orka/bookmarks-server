@@ -1,4 +1,5 @@
 // const { v4: uuid } = require('uuid');
+const path = require('path')
 const express = require('express')
 const xss = require('xss')
 const logger = require('./logger');
@@ -48,11 +49,11 @@ bookmarksRouter
         }
 
         BookmarksService.insertBookmark(req.app.get('db'), bookmark)
-            .then(bookmark => {
+            .then((bookmark) => {
                 logger.info(`Card with id ${bookmark.id} created.`)
                 res
                     .status(201)
-                    .location(`/bookmarks/${bookmark.id}`)
+                    .location(path.posix.join(req.originalUrl, `/${bookmark.id}`))
                     .json(serializeBookmark(bookmark))
             })
             .catch(next)
@@ -84,6 +85,21 @@ bookmarksRouter
         BookmarksService.deleteBookmark(req.app.get('db'), id)
             .then(() => {
                 logger.info(`Bookmark with id ${id} deleted.`)
+                res.status(204).end()
+            })
+            .catch(next)
+    })
+    .patch(bodyParser, (req, res, next) => {
+        const { title, url, description, rating } = req.body;
+        const bookmark = {
+            title,
+            url,
+            description,
+            rating
+        }
+
+        BookmarksService.updateBookmark(req.app.get('db'), id, bookmark)
+            .then((numRowsAffected) => {
                 res.status(204).end()
             })
             .catch(next)
