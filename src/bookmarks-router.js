@@ -90,12 +90,20 @@ bookmarksRouter
             .catch(next)
     })
     .patch(bodyParser, (req, res, next) => {
+        const { id } = req.params;
+        if (!id) {
+            return res.status(404).end()
+        }
+
         const { title, url, description, rating } = req.body;
         const bookmark = {
             title,
             url,
             description,
             rating
+        }
+        if (!bookmark.title && !bookmark.url && !bookmark.description && !bookmark.rating) {
+            return res.status(400).end()
         }
 
         BookmarksService.updateBookmark(req.app.get('db'), id, bookmark)

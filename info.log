@@ -330,3 +330,95 @@
 {"message":"url is required","level":"error"}
 {"message":"rating is required","level":"error"}
 {"message":"Invalid rating '7' supplied","level":"error"}
+{"message":"Bookmark with id 5 deleted.","level":"info"}
+{"message":"Bookmark with id 7 deleted.","level":"info"}
+{"message":"description is required","level":"error"}
+{"message":"description is required","level":"error"}
+{"message":"description is required","level":"error"}
+{"message":"Card with id 8 created.","level":"info"}
+{"message":"Card with id 9 created.","level":"info"}
+{"message":"Bookmark with id 8 deleted.","level":"info"}
+{"message":"Bookmark with id 6 deleted.","level":"info"}
+{"message":"Card with id 10 created.","level":"info"}
+{"message":"description is required","level":"error"}
+{"message":"description is required","level":"error"}
+{"message":"description is required","level":"error"}
+{"message":"Bookmark with id 3 deleted.","level":"info"}
+{"message":"Bookmark with id 10 deleted.","level":"info"}
+{"message":"Bookmark with id 9 deleted.","level":"info"}
+{"message":"description is required","level":"error"}
+{"message":"description is required","level":"error"}
+{"message":"Card with id 11 created.","level":"info"}
+{"message":"Card with id 12 created.","level":"info"}
+{"message":"description is required","level":"error"}
+{"message":"Bookmark with id 4 deleted.","level":"info"}
+{"message":"Bookmark with id 12 deleted.","level":"info"}
+{"message":"Card with id 13 created.","level":"info"}
+{"message":"Card with id 14 created.","level":"info"}
+{"message":"Bookmark with id 13 deleted.","level":"info"}
+{"message":"Bookmark with id 14 deleted.","level":"info"}
+{"message":"Card with id 15 created.","level":"info"}
+{"message":"Card with id 16 created.","level":"info"}
+{"message":"Bookmark with id 15 deleted.","level":"info"}
+{"message":"Bookmark with id 16 deleted.","level":"info"}
+{"message":"rating is required","level":"error"}
+{"message":"Card with id 17 created.","level":"info"}
+{"message":"Card with id 18 created.","level":"info"}
+{"message":"Card with id 19 created.","level":"info"}
+{"message":"Bookmark with id 19 deleted.","level":"info"}
+{"message":"Bookmark with id 18 deleted.","level":"info"}
+{"message":"Bookmark with id 1 not found.","level":"error"}
+{"message":"Bookmark with id 1 not found.","level":"error"}
+{"message":"Bookmark with id 1 not found.","level":"error"}
+{"message":"Bookmark with id 1 deleted.","level":"info"}
+{"message":"Card with id 1 created.","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"url is required","level":"error"}
+{"message":"rating is required","level":"error"}
+{"message":"Invalid rating '7' supplied","level":"error"}
+{"message":"Bookmark with id 1 not found.","level":"error"}
+{"message":"Bookmark with id 1 not found.","level":"error"}
+{"message":"Bookmark with id 1 not found.","level":"error"}
+{"message":"Bookmark with id 1 deleted.","level":"info"}
+{"message":"Card with id 1 created.","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"url is required","level":"error"}
+{"message":"rating is required","level":"error"}
+{"message":"Invalid rating '7' supplied","level":"error"}
+{"message":"Bookmark with id 1 not found.","level":"error"}
+{"message":"Bookmark with id 1 not found.","level":"error"}
+{"message":"Bookmark with id 1 not found.","level":"error"}
+{"message":"Bookmark with id 1 deleted.","level":"info"}
+{"message":"Bookmark with id 1 not found.","level":"error"}
+{"message":"Card with id 1 created.","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"url is required","level":"error"}
+{"message":"rating is required","level":"error"}
+{"message":"Invalid rating '7' supplied","level":"error"}
+{"message":"Bookmark with id 1 not found.","level":"error"}
+{"message":"Bookmark with id 1 not found.","level":"error"}
+{"message":"Bookmark with id 1 not found.","level":"error"}
+{"message":"Bookmark with id 1 deleted.","level":"info"}
+{"message":"Card with id 1 created.","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"url is required","level":"error"}
+{"message":"rating is required","level":"error"}
+{"message":"Invalid rating '7' supplied","level":"error"}
+{"message":"Bookmark with id 1 not found.","level":"error"}
+{"message":"Bookmark with id 1 not found.","level":"error"}
+{"message":"Bookmark with id 1 not found.","level":"error"}
+{"message":"Bookmark with id 1 deleted.","level":"info"}
+{"message":"Card with id 1 created.","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"url is required","level":"error"}
+{"message":"rating is required","level":"error"}
+{"message":"Invalid rating '7' supplied","level":"error"}
+{"message":"Bookmark with id 1 not found.","level":"error"}
+{"message":"Bookmark with id 1 not found.","level":"error"}
+{"message":"Bookmark with id 1 not found.","level":"error"}
+{"message":"Bookmark with id 1 deleted.","level":"info"}
+{"message":"Card with id 1 created.","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"url is required","level":"error"}
+{"message":"rating is required","level":"error"}
+{"message":"Invalid rating '7' supplied","level":"error"}
